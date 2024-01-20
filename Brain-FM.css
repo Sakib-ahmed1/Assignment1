@@ -1,0 +1,56 @@
+body {
+    margin-top: 1%;
+}
+
+.hero {
+min-height: 100vh;
+width: 100%;
+background-color: #502eea; 
+}
+
+.section-1 {
+margin-bottom: 10%;
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+align-items: center;
+}
+
+#foo img[src="logo.png"] {
+width: 130;
+}
+
+#foo img [src="picture-1.gif"]{ 
+width:65%;
+height:auto;
+}
+
+
+
+a:first-line[sign-in] {
+color: white;
+text-decoration:none;
+font-weight: bold;
+}
+
+button, input[type="button"] {
+background-color: #fdb515;
+border: none;
+border-radius: 22px;
+width: 45%;
+color: white;
+font-weight: bold;
+padding: 13px;
+text-align: center;    
+line-height: inherit;
+text-decoration:solid;
+display: inline-block;
+margin: 2px;
+
+}
+
+
+.lineone{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+}
